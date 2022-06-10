@@ -1,17 +1,13 @@
 import React from "react";
-import {Switch, Routes} from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
 
 export default () => {
     return (
-        <Switch>
-            <Routes exact path="/">
-                <Login />
-            </Routes>
-            <Routes exact path="/Home">
-                <Home />
-            </Routes>
-        </Switch>
+        <Routes>
+            <Route path="/" element={<Login/>}/>
+            <Route path="/Home" element={<Home/>}/>
+        </Routes>
     );
 }

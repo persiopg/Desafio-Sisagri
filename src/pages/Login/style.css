@@ -1,0 +1,186 @@
+*{ margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../../img/background.png");
+}
+.container-body{
+    background-color: #0b0b0b9d;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+}
+.logo-container{
+    position: absolute;
+    width: 462.94px;
+    height: 214.88px;
+    left: 106.62px;
+    top: 59.52px;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    left: 65%;
+    top: 15%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: #0b0b0b 0px 0px 10px;
+}
+.title{
+    flex: .5;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 200%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container{
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #FFFFFF;    
+    text-align: center;
+}
+
+.text-container h1{
+    position: absolute;
+    width: 500px;
+    height: 69px;
+    left: 5%;
+    top: 55%;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 57px;    
+}
+
+.text-container p{
+    position: absolute;
+    width: 500px;
+    height: 69px;
+    left: 5%;
+    top: 70%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.social-container{  
+    position: absolute;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 5%;
+    top: 88%;
+    width: 500px;
+    height: 69px;
+}
+.social-container a{
+    width: auto;
+    height: 60px;
+    flex: 1;
+}
+
+.form-login{
+    flex:1.5;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.form-input{
+    margin: 15px;
+    width: 335px;
+    height: 45px;
+    left: 895px;
+    top: 304px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.form-esqueceu-senha{
+    margin-bottom: 15px;
+    line-height: 0;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    width: 335px;
+}
+.esqueceu-senha{
+    text-decoration: none;
+    color: #1A877F;
+}
+.input{
+    flex: 1;
+    width: 335px;
+    height: 45px;
+    left: 895px;
+    top: 304px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+.input:hover{
+    
+    border: 2px solid #343333;
+}
+
+.form-label-final{
+    margin: 15px;
+    flex: 1;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 0px;
+    text-align: center;
+    color: #5F5F5F;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-label-final p {
+    flex: 1;
+    margin: 10px;
+}
+.button-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 149px;
+    gap: 4px;
+    background: #1A877F;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #1A877F;
+    flex: 1;
+}

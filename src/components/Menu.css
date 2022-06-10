@@ -1,0 +1,85 @@
+.menu{
+    position: absolute;
+    display: flex;
+    background: #00A69A;
+    height: 100vh;
+    width: 15vw;
+    flex-direction: column;
+}
+.logo-menu{
+    flex: .5;
+}
+.logo-menu img{
+    width: 100%;
+}
+.menu-list{
+    flex: 2;
+    margin: 20px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.menu-item{        
+    border-radius: 5px;
+    padding: 5px;
+    Width:100%;
+    Height:25px;
+    
+}
+.menu-item a{ 
+    text-decoration: none;    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.item-img{
+    width: 20px;
+    height: 20px; 
+    margin-right: 5px;
+}
+.footer-menu{
+    margin: 20px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.menu-item:hover {
+    background: #1A877F;
+}
+
+.empresa{
+    margin: 20px;
+    border-radius: 5px;    
+    background: #1A877F;
+    padding:10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.nomeEmpresa{
+    width: 174px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 140%;
+}
+.cnpj{
+    width: 111px;
+    height: 17px;
+
+    
+    font-size: 12px;
+    line-height: 140%;
+}
+.separador{
+    width: 13vw;    
+    margin-left: 1vw;
+    margin-top: 5px;
+    border-top: 2px solid #409089;
+}
