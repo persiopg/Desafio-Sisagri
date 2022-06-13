@@ -1,5 +1,8 @@
+
+
 .home{
-    background: #e38686;
+    background: url("../../img/branco.png") repeat fixed; 
+    background-size: contain;
     width: 100vw;
     height: 100vh;    
     margin: 0;
@@ -19,7 +22,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid ;
 
 }
 .conteudo-top-title{
@@ -31,7 +33,7 @@
     
 }
 .conteudo-top-pesquisa{
-    flex: .5;    
+    flex: 1;    
 }
 .conteudo-top-pesquisa input{
     width: 100%;
@@ -44,19 +46,19 @@
 .Conteudo-top-social{
     flex: 0.75;    
     display: flex;
-    border: 1px solid;
     text-align: center;
+    justify-content: center;
+    gap: 30px;
 }
-.Conteudo-top-social a{
-    flex: 1;
-    border: 1px solid;        
+.Conteudo-top-social img{    
+    width:30px;
+    height: 30px;  
 }
-
 
 
 .container-conteudo{
     display: flex;
-    margin: 50px;
+    margin: 25px;
     width: 250px;
 }
 .conteudo-mid{
@@ -68,7 +70,6 @@
 }
 .conteudo-mid-graf{
     flex: 1;
-    border: 1px solid;
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
@@ -76,26 +77,71 @@
 .conteudo-mid-graf img{    
     height: 50vh;
     width: 60vw;
+    box-shadow: #0b0b0b 0px 0px 10px;
 }
 .conteudo-mid-tabelas{
     flex: 1;
     display: flex;
     flex-direction: row;    
-    align-items: center;
-    justify-content: center;
-    border: 1px solid;
+    align-items: flex-start;
+    justify-content: flex-start;
     width: 60vw;
     
 }
 .conteudo-mid-talhoes{
+    margin-right: 50px;
+    margin-left: 50px;
     flex: 1;
-    gap: 150px;
+}
+.conteudo-mid-talhoes-tabela{    
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo-mid-talhoes-tabela li{
     list-style: none;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+.conteudo-mid-talhoes-tabela img{
+    width: 20px;
+    height: 20px;
+    background-color: #00A69A;
+    border-radius: 50%;
 }
 .conteudo-mid-safras{
     flex: 1;    
-    text-align: center;
+}
+.conteudo-mid-safras-tabela{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.conteudo-mid-safras-tabela li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    margin: 10px;
+}
+.conteudo-mid-safras-tabela img{
+    background-color: #00A69A;
+    border-radius: 50%;    
+    width: 30px;
+    height: 30px;
+}
+.conteudo-mid-tabelas img{
+    padding: 5px;
+}
+.conteudo-mid-talhoes ul, .conteudo-mid-safras table ul{
+    text-align: left;
+    width: 100%;
     list-style: none;
 }
 
@@ -103,14 +149,25 @@
 .conteudo-left{
     position:absolute;
     right: 50px;
-    border: 1px solid;
 }
-.conteudo-left ul{    
+.conteudo-left-list img{
+    width: 50px;
+    height: 100%;
+    padding: 5px;
+    background: #00A69A;
+    border-radius: 50px;
+}
+.conteudo-left-list-container{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.conteudo-left-list-container li{
     list-style: none;
-    text-decoration: none;    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
 }

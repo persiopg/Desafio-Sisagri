@@ -2,7 +2,7 @@
     position: absolute;
     display: flex;
     background: #00A69A;
-    height: 100vh;
+    height: 100%;
     width: 15vw;
     flex-direction: column;
 }

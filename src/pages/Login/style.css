@@ -2,13 +2,16 @@
     padding: 0;
 }
 body{
-    background-image: url("../../img/background.png");
+    background: url("../../img/background.png") no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
 .container-body{
     background-color: #0b0b0b9d;
-        width: 100vw;
-        height: 100vh;
-        margin: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
 }
 .logo-container{
     position: absolute;
@@ -18,7 +21,7 @@ body{
     top: 59.52px;
 }
 
-.container{
+.container-login{
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -183,4 +186,13 @@ body{
     letter-spacing: -0.5px;
     color: #1A877F;
     flex: 1;
+}
+
+.ver-todos{
+    margin-top: 15px;
+    text-align: end;
+}
+.ver-todos a{
+    color: #00A69A;
+    text-decoration: none;
 }
